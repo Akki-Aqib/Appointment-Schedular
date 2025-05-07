@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <!-- STEP 1: CATEGORY SELECTION -->
+    <section class="step active" id="step1">
+      <h2>Book Appointment</h2>
+      <p>How may we help you?</p>
+      <div class="categories">
+        <div class="category" data-category="Consultation">🩺 Consultation</div>
+        <div class="category" data-category="Tooth Pain">🦷 Tooth Pain</div>
+        <div class="category" data-category="Cleaning">🧼 Cleaning</div>
+        <div class="category" data-category="Braces">🪥 Braces</div>
+        <div class="category" data-category="Implant">🧩 Dental Implant</div>
+        <div class="category" data-category="Others">Others</div>
+      </div>
+      <div class="btns">
+        <button id="next1" class="next">Next</button>
+      </div>
+    </section>
+
+    <!-- STEP 2: DATE SELECTION -->
+    <section class="step" id="step2">
+      <h2>Select Date</h2>
+      <input type="date" id="appointment-date" />
+      <div class="btns">
+        <button id="back1" class="back">Back</button>
+        <button id="next2" class="next">Next</button>
+      </div>
+    </section>
+
+    <!-- STEP 3: TIME SLOT -->
+    <section class="step" id="step3">
+      <h2>Select Time Slot</h2>
+      <div class="slots">
+        <button class="slot">10:00 AM</button>
+        <button class="slot">11:00 AM</button>
+        <button class="slot">12:30 PM</button>
+        <button class="slot">2:00 PM</button>
+        <button class="slot">4:00 PM</button>
+        <button class="slot">6:00 PM</button>
+      </div>
+      <div class="btns">
+        <button id="back2" class="back">Back</button>
+        <button id="book" class="book">Book Appointment</button>
+      </div>
+    </section>
+    <section class="step" id="confirmation">
+      <h2>🎉 Appointment Booked!</h2>
+      <p id="summary"></p>
+      <link src="script.js">
+    </section>
+  </div>
+</body>
+</html>
