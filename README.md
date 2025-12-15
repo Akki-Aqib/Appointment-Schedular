@@ -1,3 +1,21 @@
-# Appointment-Schedular
-Book Your Appointment
-This is mmy Project when i started development journey after completing HTML,CSS and basics of Javascript i started the project appointment Schedular and this gave me Motivation and spark to continue the develoment journey and gave me a hope that i can contribute more and and create impact
+📅 Appointment Scheduler
+
+A simple Appointment Scheduler web application built using HTML, CSS, and JavaScript.
+The project simulates a multi-step appointment booking process and is suitable for college projects and frontend practice.
+
+🚀 Features
+
+Select service category
+
+Choose date and time slot
+
+Form validation using JavaScript
+
+Clean and user-friendly UI
+
+No backend required
+
+👤 Author
+
+Aqib Jawed
+GitHub: Akki-Aqib
